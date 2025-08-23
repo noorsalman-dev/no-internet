@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://b2a3etd31aype"
+path="res://.godot/imported/structure_low.obj-7f5af8f4578aa31c4be5d4ddb1bb8aac.mesh"
+
+[deps]
+
+files=["res://.godot/imported/structure_low.obj-7f5af8f4578aa31c4be5d4ddb1bb8aac.mesh"]
+
+source_file="res://LEGO shader/Assets/obj/structure_low.obj"
+dest_files=["res://.godot/imported/structure_low.obj-7f5af8f4578aa31c4be5d4ddb1bb8aac.mesh", "res://.godot/imported/structure_low.obj-7f5af8f4578aa31c4be5d4ddb1bb8aac.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

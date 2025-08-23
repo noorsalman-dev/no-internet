@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://c2rfisi3jmh0t"
+path="res://.godot/imported/terrain_low.obj-74389cab1d1360ea95c7f9e6a2025f74.mesh"
+
+[deps]
+
+files=["res://.godot/imported/terrain_low.obj-74389cab1d1360ea95c7f9e6a2025f74.mesh"]
+
+source_file="res://LEGO shader/Assets/obj/terrain_low.obj"
+dest_files=["res://.godot/imported/terrain_low.obj-74389cab1d1360ea95c7f9e6a2025f74.mesh", "res://.godot/imported/terrain_low.obj-74389cab1d1360ea95c7f9e6a2025f74.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

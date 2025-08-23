@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dkhfg31yb7kve"
+path="res://.godot/imported/tunnel_straight_A.obj-fbb55e538f8e6fa73f0d7554a617ee47.mesh"
+
+[deps]
+
+files=["res://.godot/imported/tunnel_straight_A.obj-fbb55e538f8e6fa73f0d7554a617ee47.mesh"]
+
+source_file="res://LEGO shader/Assets/obj/tunnel_straight_A.obj"
+dest_files=["res://.godot/imported/tunnel_straight_A.obj-fbb55e538f8e6fa73f0d7554a617ee47.mesh", "res://.godot/imported/tunnel_straight_A.obj-fbb55e538f8e6fa73f0d7554a617ee47.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

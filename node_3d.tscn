@@ -1,21 +1,76 @@
-[gd_scene load_steps=6 format=3 uid="uid://dkgm3n530hil5"]
+[gd_scene load_steps=22 format=3 uid="uid://dkgm3n530hil5"]
 
 [ext_resource type="PackedScene" uid="uid://182tvsraexne" path="res://LEGO shader/pirate.dae" id="2_a0tk4"]
 [ext_resource type="Script" uid="uid://brw03g3fhtg6" path="res://LEGO shader/pirate.gd" id="2_noarx"]
+[ext_resource type="PackedScene" uid="uid://bwp6a0ef0falm" path="res://LEGO shader/Assets/fbx/terrain_low.fbx" id="3_cdqbm"]
+[ext_resource type="Texture2D" uid="uid://2v4kbq2fxt1e" path="res://LEGO shader/Assets/fbx/spacebits_texture.png" id="4_imku0"]
+[ext_resource type="PackedScene" uid="uid://btsb2ih87og56" path="res://LEGO shader/Assets/fbx/spacetruck.fbx" id="5_wlxy5"]
+[ext_resource type="PackedScene" uid="uid://bouju2c7f7135" path="res://LEGO shader/Assets/fbx/structure_low.fbx" id="6_3v7ru"]
+[ext_resource type="PackedScene" uid="uid://bqahvshotsfmr" path="res://LEGO shader/Assets/fbx/tunnel_straight_A.fbx" id="7_tcnuu"]
+[ext_resource type="PackedScene" uid="uid://cousxll7ms8go" path="res://LEGO shader/Assets/fbx/spacetruck_large.fbx" id="8_tuemg"]
+[ext_resource type="PackedScene" uid="uid://dfn67albjiej3" path="res://LEGO shader/Assets/fbx/spacetruck_trailer.fbx" id="9_i0g27"]
+[ext_resource type="PackedScene" uid="uid://d00ks4xlx1a4k" path="res://LEGO shader/Assets/fbx/rock_B.fbx" id="10_ealrb"]
+[ext_resource type="PackedScene" uid="uid://cuw8o2gc0vd24" path="res://LEGO shader/Assets/fbx/lights.fbx" id="11_jsnrv"]
+[ext_resource type="PackedScene" uid="uid://b428io1c1pgql" path="res://LEGO shader/Assets/fbx/lander_base.fbx" id="12_lggff"]
+[ext_resource type="PackedScene" uid="uid://ga6vjrl873lx" path="res://LEGO shader/Assets/fbx/roofmodule_solarpanels.fbx" id="13_3v7ru"]
+[ext_resource type="PackedScene" uid="uid://bk7elw207jf5c" path="res://LEGO shader/Assets/fbx/drill_structure.fbx" id="14_tcnuu"]
+[ext_resource type="PackedScene" uid="uid://iaja7poupewq" path="res://LEGO shader/Assets/fbx/lander_A.fbx" id="15_tuemg"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_cdqbm"]
+sky_top_color = Color(0.537469, 0.607795, 0.70573, 1)
+sky_horizon_color = Color(0.828391, 0.838222, 0.853706, 1)
+ground_horizon_color = Color(0.828391, 0.838222, 0.853706, 1)
+energy_multiplier = 0.45
+
+[sub_resource type="Sky" id="Sky_imku0"]
+sky_material = SubResource("ProceduralSkyMaterial_cdqbm")
+
+[sub_resource type="Environment" id="Environment_wlxy5"]
+background_mode = 2
+sky = SubResource("Sky_imku0")
+tonemap_mode = 2
+ssao_enabled = true
+sdfgi_enabled = true
+glow_enabled = true
 
 [sub_resource type="Animation" id="Animation_a0tk4"]
 resource_name = "new_animation"
+length = 4.0
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("pirate:position")
+tracks/0/path = NodePath("Camera3D:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.500476, 1),
+"times": PackedFloat32Array(0.1, 1, 4),
 "transitions": PackedFloat32Array(1, 1, 1),
 "update": 0,
-"values": [Vector3(1.25909, 0, 1.26211), Vector3(1.25909, 5.34879, 1.26211), Vector3(1.25909, -0.654447, 1.26211)]
+"values": [Vector3(1.12876, 1.69701, -11.891), Vector3(1.12876, 4.21822, -11.891), Vector3(1.12876, 1.90816, 5.04492)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.1, 1, 4),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Vector3(0, 0, 3.11943), Vector3(0.359939, 0, 3.11943), Vector3(0, 0, 3.1189)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Camera3D:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.342162, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector3(-1, -1, -1), Vector3(-1, -1, -1)]
 }
 
 [sub_resource type="Animation" id="Animation_r3fl7"]
@@ -23,14 +78,38 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("pirate:position")
+tracks/0/path = NodePath("Camera3D:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(1.25909, 0, 1.26211)]
+"values": [Vector3(1.12876, 1.69701, -11.891)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Camera3D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(0, 0, 3.11943)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Camera3D:scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector3(-1, -1, -1)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_jka67"]
@@ -41,15 +120,75 @@ _data = {
 
 [node name="Node3D" type="Node3D"]
 
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_wlxy5")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.999848, -0.0102336, 0.0141372, 0, 0.810042, 0.586372, -0.0174524, -0.586283, 0.809918, 0, 0, 0)
+shadow_enabled = true
+directional_shadow_max_distance = 40.0
+
 [node name="pirate" parent="." instance=ExtResource("2_a0tk4")]
-transform = Transform3D(89.93, 0, 0, 0, 89.93, 0, 0, 0, 89.93, 1.25909, 0, 1.26211)
+transform = Transform3D(89.93, 0, 0, 0, 89.93, 0, 0, 0, 89.93, -148.857, -0.654447, 1.26211)
 script = ExtResource("2_noarx")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
 &"": SubResource("AnimationLibrary_jka67")
 }
+autoplay = "new_animation"
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, -1, 8.74228e-08, 0, -8.74228e-08, -1, 1.28505, 2.06718, -2.38044)
-fov = 106.875
+transform = Transform3D(0.999754, 0.0221639, 0, -0.0221639, 0.999754, 0, 0, 0, -1, 1.12876, 1.69701, -11.891)
+fov = 67.5
+
+[node name="terrain_low" parent="." instance=ExtResource("3_cdqbm")]
+transform = Transform3D(21.6986, 0, 0, 0, 1.306, 0, 0, 0, 428.679, 6.62718, -0.573139, 0.646097)
+
+[node name="terrain_low2" parent="." instance=ExtResource("3_cdqbm")]
+transform = Transform3D(21.6986, 0, 0, 0, 1.306, 0, 0, 0, 428.679, 6.30837, -0.636602, 852.041)
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -23.5613, 0, 0)
+texture = ExtResource("4_imku0")
+region_enabled = true
+region_rect = Rect2(1293.62, 324.625, 452.25, 87.75)
+
+[node name="spacetruck" parent="." instance=ExtResource("5_wlxy5")]
+transform = Transform3D(4.96, 0, 0, 0, 4.96, 0, 0, 0, 4.96, 0.308168, -0.181033, 3.4788)
+
+[node name="structure_low" parent="." instance=ExtResource("6_3v7ru")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.639971, 1.07651, 2.29694)
+
+[node name="terrain_low3" parent="." instance=ExtResource("3_cdqbm")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.58423, -0.712479, 3.26625)
+
+[node name="tunnel_straight_A" parent="." instance=ExtResource("7_tcnuu")]
+transform = Transform3D(1, 0, 0, 0, 0.0226002, -0.999745, 0, 0.999745, 0.0226002, 0.557741, 1.52477, 2.89812)
+
+[node name="spacetruck_large" parent="." instance=ExtResource("8_tuemg")]
+transform = Transform3D(4.775, 0, 0, 0, 4.775, 0, 0, 0, 4.775, 0.2687, 0, -1.70069)
+
+[node name="spacetruck_trailer" parent="." instance=ExtResource("9_i0g27")]
+transform = Transform3D(2.81, 0, 0, 0, 2.81, 0, 0, 0, 2.81, 0.381468, -0.118424, -5.16321)
+
+[node name="rock_B" parent="." instance=ExtResource("10_ealrb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.683829, 0.478716, -4.66375)
+
+[node name="lights" parent="." instance=ExtResource("11_jsnrv")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.86098, 0.473981, -5.33812)
+
+[node name="lander_base" parent="." instance=ExtResource("12_lggff")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4266, 0.570772, -7.66688)
+
+[node name="spacetruck_trailer2" parent="." instance=ExtResource("9_i0g27")]
+transform = Transform3D(3.075, 0, 0, 0, 3.075, 0, 0, 0, 3.075, 0.28639, -0.206582, -8.2364)
+
+[node name="roofmodule_solarpanels" parent="." instance=ExtResource("13_3v7ru")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48528, 0.523182, -6.29935)
+
+[node name="drill_structure" parent="." instance=ExtResource("14_tcnuu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.863794, -0.529966, 9.67549)
+
+[node name="lander_A" parent="." instance=ExtResource("15_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.92403, -0.536855, 30.4745)
