@@ -1,0 +1,18 @@
+Realistic LEGO shader made in Blender 2.93.8 (the LEGO meshes come from LeoCAD)
+
+By Erik Nordeus, www.habrador.com
+
+Main inspiration comes from:
+- https://stefanmuller.com/exploring-lego-material-part-1/
+- https://stefanmuller.com/exploring-lego-material-part-2/
+
+Ignored "Mold lines" and "Finger prints" so you have to implement those on your own!
+
+
+Shader data:
+
+- IOR for lego bricks are roughly 1.5-1.6 -> specular is 0.5 according to equation from https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/principled.html
+
+- Roughness should be 0.25 according to article
+
+- Don't use a denoiser because it makes the small details blurry

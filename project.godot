@@ -14,3 +14,7 @@ config/name="no internet"
 run/main_scene="res://node_3d.tscn"
 config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://icon.svg"
+
+[filesystem]
+
+import/blender/enabled=false

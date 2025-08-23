@@ -1,0 +1,12 @@
+.bbcode-iframe > div {
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+.bbcode-iframe > div iframe {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
