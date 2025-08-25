@@ -6,6 +6,7 @@
 size = Vector3(3.07574, 2.16345, 1)
 
 [node name="lander_A" type="Area3D"]
+collision_mask = 2
 script = ExtResource("1_fd3ye")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]

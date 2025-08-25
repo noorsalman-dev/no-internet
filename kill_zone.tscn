@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://ur5ftpxol2s8"]
+
+[ext_resource type="Script" uid="uid://plps1vg1cayx" path="res://lander_a.gd" id="1_tuh0n"]
+
+[node name="kill_zone" type="Area3D"]
+script = ExtResource("1_tuh0n")

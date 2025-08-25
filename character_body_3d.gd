@@ -1,8 +1,9 @@
 extends CharacterBody3D
 
 
-const SPEED = 5.0
+const SPEED = 15  
 const JUMP_VELOCITY = 20
+@onready var timer: Timer = $Timer
 
 
 func _physics_process(delta: float) -> void:
@@ -23,6 +24,12 @@ func _physics_process(delta: float) -> void:
 		velocity.z = direction.z * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
-		velocity.z = move_toward(velocity.z, 0, SPEED)
+
 
 	move_and_slide()
+
+
+func _on_timer_timeout() -> void:
+	SPEED +   5
+	timer.start()
+	print(SPEED)

@@ -1,4 +1,4 @@
-[gd_scene load_steps=47 format=3 uid="uid://dkgm3n530hil5"]
+[gd_scene load_steps=38 format=3 uid="uid://dkgm3n530hil5"]
 
 [ext_resource type="PackedScene" uid="uid://182tvsraexne" path="res://LEGO shader/pirate.dae" id="2_a0tk4"]
 [ext_resource type="Script" uid="uid://brw03g3fhtg6" path="res://LEGO shader/pirate.gd" id="2_noarx"]
@@ -14,29 +14,20 @@
 [ext_resource type="PackedScene" uid="uid://b428io1c1pgql" path="res://LEGO shader/Assets/fbx/lander_base.fbx" id="12_lggff"]
 [ext_resource type="PackedScene" uid="uid://ga6vjrl873lx" path="res://LEGO shader/Assets/fbx/roofmodule_solarpanels.fbx" id="13_3v7ru"]
 [ext_resource type="PackedScene" uid="uid://bk7elw207jf5c" path="res://LEGO shader/Assets/fbx/drill_structure.fbx" id="14_tcnuu"]
-[ext_resource type="PackedScene" uid="uid://iaja7poupewq" path="res://LEGO shader/Assets/fbx/lander_A.fbx" id="15_tuemg"]
+[ext_resource type="ArrayMesh" uid="uid://cihbnbppye3ak" path="res://LEGO shader/T-Rex Model.obj" id="16_obt1j"]
 [ext_resource type="Script" uid="uid://hk377383irfk" path="res://character_body_3d.gd" id="16_tcnuu"]
-[ext_resource type="PackedScene" uid="uid://byjg2pu4b3boj" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Barrel_B.fbx" id="17_jsnrv"]
 [ext_resource type="PackedScene" uid="uid://dj4n18488gr2a" path="res://lander_a.tscn" id="17_tuemg"]
 [ext_resource type="PackedScene" uid="uid://bqugxolg0xyds" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Barrel_A.fbx" id="18_4i7mf"]
 [ext_resource type="PackedScene" uid="uid://bco4mdlofifg6" path="res://LEGO shader/Assets/fbx/cargo_B_stacked.fbx" id="18_i0g27"]
-[ext_resource type="PackedScene" uid="uid://h44f525jeukw" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Pallet_Small.fbx" id="19_3s0n5"]
 [ext_resource type="PackedScene" uid="uid://c3wt57nvadgb4" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Floor.fbx" id="19_ealrb"]
-[ext_resource type="PackedScene" uid="uid://ddiocqdajn4f7" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Pallet_Small_Decorated_A.fbx" id="20_qpkl4"]
-[ext_resource type="PackedScene" uid="uid://b33sh2grtew7q" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Primitive_Floor.fbx" id="21_g4s1x"]
-[ext_resource type="PackedScene" uid="uid://pxw3oav33jcx" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Primitive_Stairs.fbx" id="22_pf4ct"]
-[ext_resource type="PackedScene" uid="uid://befnk863brlov" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/table_medium_Decorated.fbx" id="23_5w2ad"]
+[ext_resource type="PackedScene" uid="uid://bvq5jc5yw5vai" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Cube_Prototype_Small.fbx" id="20_nu31w"]
+[ext_resource type="PackedScene" uid="uid://bgf668ol2px4v" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Floor_Prototype.fbx" id="21_obt1j"]
+[ext_resource type="PackedScene" uid="uid://5tyjwsa0wdcj" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Wall_Decorated.fbx" id="23_2yde8"]
 [ext_resource type="PackedScene" uid="uid://dv7jvdmtgfmd6" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Wall.fbx" id="24_8p5mg"]
+[ext_resource type="PackedScene" uid="uid://buvlqv0m641pq" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Wall_Doorway.fbx" id="24_id0nj"]
+[ext_resource type="PackedScene" uid="uid://bqexhlvc7m7l6" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Wall_Half.fbx" id="25_1q667"]
 [ext_resource type="PackedScene" uid="uid://cjv5jc5lnlslh" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Wall_Window_Closed.fbx" id="25_dsgk7"]
 [ext_resource type="PackedScene" uid="uid://dpceahnqub5wy" path="res://LEGO shader/Assets/fbx/KayKit_Prototype_Bits_1.0_FREE/Assets/fbx/Wall_Target.fbx" id="26_72tv7"]
-[ext_resource type="PackedScene" uid="uid://ik5jn3kv8dvr" path="res://LEGO shader/Assets/fbx/basemodule_A.fbx" id="27_x6a8j"]
-[ext_resource type="PackedScene" uid="uid://d10wvp8ia1qdb" path="res://LEGO shader/Assets/fbx/basemodule_D.fbx" id="28_s7uix"]
-[ext_resource type="PackedScene" uid="uid://x15fc0jj0ys5" path="res://LEGO shader/Assets/fbx/cargodepot_A.fbx" id="29_4hyfj"]
-[ext_resource type="PackedScene" uid="uid://bax3t3ewabd71" path="res://LEGO shader/Assets/fbx/cargodepot_B.fbx" id="30_8d0ks"]
-[ext_resource type="PackedScene" uid="uid://c80nn3nu6rr2f" path="res://LEGO shader/Assets/fbx/containers_C.fbx" id="31_8kg7c"]
-[ext_resource type="PackedScene" uid="uid://bjufw8bq1pd8o" path="res://LEGO shader/Assets/fbx/rocks_A.fbx" id="32_wwdad"]
-[ext_resource type="PackedScene" uid="uid://b1vlhlf2u3o4e" path="res://LEGO shader/Assets/fbx/roofmodule_base.fbx" id="33_ykyjb"]
-[ext_resource type="PackedScene" uid="uid://c345i6axxvlbv" path="res://LEGO shader/Assets/fbx/roofmodule_cargo_A.fbx" id="34_sivbr"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_cdqbm"]
 sky_top_color = Color(0.537469, 0.607795, 0.70573, 1)
@@ -56,9 +47,10 @@ sdfgi_enabled = true
 glow_enabled = true
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_tuemg"]
-radius = 1.35407
+radius = 5.25166
 
-[sub_resource type="CylinderShape3D" id="CylinderShape3D_lggff"]
+[sub_resource type="Skin" id="Skin_2yde8"]
+resource_local_to_scene = true
 
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_tcnuu"]
 
@@ -69,10 +61,10 @@ radius = 1.35407
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_lggff"]
 
 [node name="Node3D" type="Node3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -2.65954)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 28.95)
 
 [node name="drill_structure" parent="." instance=ExtResource("14_tcnuu")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.863794, -0.529966, 9.67549)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.864, 6.16438, -1.9)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_wlxy5")
@@ -87,7 +79,7 @@ transform = Transform3D(89.93, 0, 0, 0, 89.93, 0, 0, 0, 89.93, -148.857, -0.6544
 script = ExtResource("2_noarx")
 
 [node name="terrain_low" parent="." instance=ExtResource("3_cdqbm")]
-transform = Transform3D(21.6986, 0, 0, 0, 1.306, 0, 0, 0, 428.679, 6.62718, -0.573139, 0.646097)
+transform = Transform3D(185.109, 0, 0, 0, 7.881, 0, 0, 0, 413.229, 6.62718, -0.573139, 42.8017)
 
 [node name="terrain_low2" parent="." instance=ExtResource("3_cdqbm")]
 transform = Transform3D(21.6986, 0, 0, 0, 1.306, 0, 0, 0, 428.679, 6.30837, -0.636602, 852.041)
@@ -100,157 +92,64 @@ region_rect = Rect2(138.25, 265.25, 105.75, 234)
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.466, 0.644, -129.729)
+collision_layer = 2
 script = ExtResource("16_tcnuu")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.273315, 0, 3.36871)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.52584, 2.18112, 3.36871)
 shape = SubResource("SphereShape3D_tuemg")
 
 [node name="spacetruck" parent="CharacterBody3D" instance=ExtResource("5_wlxy5")]
-transform = Transform3D(4.96, 0, 0, 0, 4.96, 0, 0, 0, 4.96, 0.308168, -0.181033, 3.4788)
+transform = Transform3D(4.96, 0, 0, 0, 4.96, 0, 0, 0, 4.96, -31.9831, -0.181033, 3.4788)
 
 [node name="structure_low" parent="CharacterBody3D" instance=ExtResource("6_3v7ru")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.639971, 1.07651, 2.29694)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.6513, 1.07651, 2.29694)
 
 [node name="terrain_low3" parent="CharacterBody3D" instance=ExtResource("3_cdqbm")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.39412, -0.712479, 3.26625)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -25.8972, -0.712479, 3.26625)
 
 [node name="tunnel_straight_A" parent="CharacterBody3D" instance=ExtResource("7_tcnuu")]
-transform = Transform3D(1, 0, 0, 0, 0.0226002, -0.999745, 0, 0.999745, 0.0226002, 0.557741, 1.52477, 2.89812)
+transform = Transform3D(1, 0, 0, 0, 0.0226002, -0.999745, 0, 0.999745, 0.0226002, -31.7336, 1.52477, 2.89812)
 
 [node name="spacetruck_large" parent="CharacterBody3D" instance=ExtResource("8_tuemg")]
-transform = Transform3D(4.775, 0, 0, 0, 4.775, 0, 0, 0, 4.775, 0.2687, 0, -1.70069)
+transform = Transform3D(4.775, 0, 0, 0, 4.775, 0, 0, 0, 4.775, -32.0226, 0, -1.70069)
 
 [node name="spacetruck_trailer" parent="CharacterBody3D" instance=ExtResource("9_i0g27")]
-transform = Transform3D(2.81, 0, 0, 0, 2.81, 0, 0, 0, 2.81, 0.381468, -0.118424, -5.16321)
+transform = Transform3D(2.81, 0, 0, 0, 2.81, 0, 0, 0, 2.81, -31.9098, -0.118424, -5.16321)
 
 [node name="rock_B" parent="CharacterBody3D" instance=ExtResource("10_ealrb")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.683829, 0.478716, -4.66375)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.6075, 0.478716, -4.66375)
 
 [node name="lights" parent="CharacterBody3D" instance=ExtResource("11_jsnrv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.86098, 0.473981, -5.33812)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.4303, 0.473981, -5.33812)
 
 [node name="lander_base" parent="CharacterBody3D" instance=ExtResource("12_lggff")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.4266, 0.570772, -7.66688)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.8647, 0.570772, -7.66688)
 
 [node name="spacetruck_trailer2" parent="CharacterBody3D" instance=ExtResource("9_i0g27")]
-transform = Transform3D(3.075, 0, 0, 0, 3.075, 0, 0, 0, 3.075, 0.28639, -0.206582, -8.2364)
+transform = Transform3D(3.075, 0, 0, 0, 3.075, 0, 0, 0, 3.075, -32.0049, -0.206582, -8.2364)
 
 [node name="roofmodule_solarpanels" parent="CharacterBody3D" instance=ExtResource("13_3v7ru")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.48528, 0.523182, -6.29935)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -155.356, -145.759, -6.29935)
 
 [node name="Camera3D" type="Camera3D" parent="CharacterBody3D"]
-transform = Transform3D(0.999743, 0.0226906, -9.53605e-10, -0.0224421, 0.988789, 0.14762, -0.00334958, 0.147582, -0.989044, 1.12876, 4.50018, 0.0123127)
-fov = 67.5
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 11.2777, 8.41355, 6.57108)
+fov = 142.887
 
-[node name="lander_A" parent="." instance=ExtResource("15_tuemg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.92403, -0.536855, 30.4745)
+[node name="T-rexModel" type="MeshInstance3D" parent="CharacterBody3D"]
+transform = Transform3D(-2.40413e-09, 0, 0.055, 0, 0.055, 0, -0.055, 0, -2.40413e-09, -7.14276, -5.43998, 3.38855)
+mesh = ExtResource("16_obt1j")
+skin = SubResource("Skin_2yde8")
+skeleton = NodePath("../..")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="lander_A"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -108)
-shape = SubResource("CylinderShape3D_lggff")
-
-[node name="Barrel_B" parent="lander_A" instance=ExtResource("17_jsnrv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.92403, 0.536855, -108.815)
-
-[node name="Barrel_A" parent="lander_A" instance=ExtResource("18_4i7mf")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.11799, 12.2357, -119.636)
-
-[node name="Pallet_Small" parent="lander_A" instance=ExtResource("19_3s0n5")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.99034, 15.2333, -120.88)
-
-[node name="Pallet_Small_Decorated_A" parent="lander_A" instance=ExtResource("20_qpkl4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.86801, 15.785, -127.099)
-
-[node name="Primitive_Floor" parent="lander_A" instance=ExtResource("21_g4s1x")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.95374, -0.0106889, -101.384)
-
-[node name="Primitive_Stairs" parent="lander_A" instance=ExtResource("22_pf4ct")]
-transform = Transform3D(-0.0734993, 0, 0.997295, 0, 1, 0, -0.997295, 0, -0.0734993, 3.93059, -0.0106889, -94.3629)
-
-[node name="table_medium_Decorated" parent="lander_A" instance=ExtResource("23_5w2ad")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.91455, -0.0106889, -108.541)
-
-[node name="Wall" parent="lander_A" instance=ExtResource("24_8p5mg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.99331, -0.010689, -96.4832)
-
-[node name="Wall_Window_Closed" parent="lander_A" instance=ExtResource("25_dsgk7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.53987, -0.010689, -81.0785)
-
-[node name="Wall_Target" parent="lander_A" instance=ExtResource("26_72tv7")]
-transform = Transform3D(-0.937014, 0, 0.349292, 0, 1, 0, -0.349292, 0, -0.937014, -0.439151, -0.010689, -59.6586)
-
-[node name="Wall_Window_Closed2" parent="lander_A" instance=ExtResource("25_dsgk7")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.8704, -0.0106871, -65.1443)
-
-[node name="basemodule_A" parent="lander_A" instance=ExtResource("27_x6a8j")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.16602, -0.0106871, -54.3362)
-
-[node name="basemodule_D" parent="lander_A" instance=ExtResource("28_s7uix")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.3633, -0.0106889, -37.5432)
-
-[node name="cargodepot_A" parent="lander_A" instance=ExtResource("29_4hyfj")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.57672, -0.0106888, -61.6927)
-
-[node name="cargodepot_B" parent="lander_A" instance=ExtResource("30_8d0ks")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.66325, -0.0106889, -54.154)
-
-[node name="containers_C" parent="lander_A" instance=ExtResource("31_8kg7c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.69908, -0.0087049, -47.6321)
-
-[node name="drill_structure" parent="lander_A" instance=ExtResource("14_tcnuu")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.65034, -0.0106879, -58.8924)
-
-[node name="lander_A2" parent="lander_A" instance=ExtResource("15_tuemg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.715132, -0.0106859, -63.2574)
-
-[node name="rocks_A" parent="lander_A" instance=ExtResource("32_wwdad")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.03004, 0.644585, -47.0962)
-
-[node name="roofmodule_base" parent="lander_A" instance=ExtResource("33_ykyjb")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.85674, 0.924656, -57.5309)
-
-[node name="roofmodule_cargo_A" parent="lander_A" instance=ExtResource("34_sivbr")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.14714, 0.0893111, -64.1905)
-
-[node name="spacetruck_large" parent="lander_A" instance=ExtResource("8_tuemg")]
-transform = Transform3D(3.48, 0, 0, 0, 3.48, 0, 0, 0, 3.48, -0.333837, 0.346481, -55.3103)
-
-[node name="lander_A3" parent="lander_A" instance=ExtResource("17_tuemg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.0527, 1.60336, -61.3076)
-
-[node name="lander_A4" parent="lander_A" instance=ExtResource("17_tuemg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.83545, -0.010689, -61.7095)
-
-[node name="lander_A5" parent="lander_A" instance=ExtResource("17_tuemg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.14319, -0.010689, -62.382)
-
-[node name="lander_A6" parent="lander_A" instance=ExtResource("17_tuemg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.42365, -0.010689, -55.2835)
-
-[node name="lander_A7" parent="lander_A" instance=ExtResource("17_tuemg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.149999, -0.010689, -57.7314)
-
-[node name="lander_A8" parent="lander_A" instance=ExtResource("17_tuemg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.156649, -0.010689, -62.7989)
-
-[node name="lander_A9" parent="lander_A" instance=ExtResource("17_tuemg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.12173, -0.010689, -61.1949)
-
-[node name="lander_A10" parent="lander_A" instance=ExtResource("17_tuemg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.8781, -0.010689, -49.3629)
-
-[node name="lander_A11" parent="lander_A" instance=ExtResource("17_tuemg")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.11892, -0.010689, -47.7177)
+[node name="Timer" type="Timer" parent="CharacterBody3D"]
+autostart = true
 
 [node name="StaticBody3D" type="StaticBody3D" parent="."]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.547544, 0)
 shape = SubResource("WorldBoundaryShape3D_tcnuu")
-
-[node name="lander_A2" parent="." instance=ExtResource("17_tuemg")]
-transform = Transform3D(2.325, 0, 0, 0, 2.325, 0, 0, 0, 2.325, -3.77769, -0.032011, 14.1498)
 
 [node name="cargo_B_stacked" parent="." instance=ExtResource("18_i0g27")]
 transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.40666, -0.537294, 1.75034)
@@ -273,6 +172,42 @@ transform = Transform3D(1.00442, 0, 0, 0, 1.00442, 0, 0, 0, 633673, 5.86107, -0.
 transform = Transform3D(-4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0, 1, -4.55478, 0, 0)
 shape = SubResource("WorldBoundaryShape3D_ealrb")
 
+[node name="lander_A" parent="StaticBody3D2" instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.282, -0.548, 0.156)
+
+[node name="lander_A2" parent="StaticBody3D2" instance=ExtResource("17_tuemg")]
+transform = Transform3D(2.83628, 0, 0, 0, 0.996995, 0.0774673, 0, -0.0774673, 0.996995, 0.007, -0.9, -2.441)
+
+[node name="lander_A3" parent="StaticBody3D2" instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.225, -0.548, 67.8924)
+
+[node name="lander_A4" parent="StaticBody3D2" instance=ExtResource("17_tuemg")]
+transform = Transform3D(0.999946, 0.0103845, 0, -0.0103845, 0.999946, 0, 0, 0, 1, -1.32971, -0.503951, 71.146)
+
+[node name="lander_A5" parent="StaticBody3D2" instance=ExtResource("17_tuemg")]
+transform = Transform3D(0.999946, 0.0103845, 0, -0.0103845, 0.999946, 0, 0, 0, 1, 1.61368, -0.534518, 72.1967)
+
+[node name="lander_A6" parent="StaticBody3D2" instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.449, -0.548, 85.86)
+
+[node name="lander_A7" parent="StaticBody3D2" instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.303, -0.548, 85.717)
+
+[node name="lander_A8" parent="StaticBody3D2" instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.82, -0.548, -51.199)
+
+[node name="lander_A9" parent="StaticBody3D2" instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.083, -0.548, -1.833)
+
+[node name="lander_A10" parent="StaticBody3D2" instance=ExtResource("17_tuemg")]
+transform = Transform3D(1.29, 0, 0, 0, 1.29, 0, 0, 0, 1.29, 1.72389, -0.442148, -50.6998)
+
+[node name="lander_A11" parent="StaticBody3D2" instance=ExtResource("17_tuemg")]
+transform = Transform3D(1.815, 0, 0, 0, 1.815, 0, 0, 0, 1.815, 1.32279, -0.547544, -75.1772)
+
+[node name="lander_A12" parent="StaticBody3D2" instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.42173, -0.547544, -77.393)
+
 [node name="StaticBody3D3" type="StaticBody3D" parent="."]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D3"]
@@ -280,157 +215,234 @@ transform = Transform3D(-4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0, 1, 8.5888
 shape = SubResource("WorldBoundaryShape3D_jsnrv")
 
 [node name="cargo_B_stacked3" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.40666, -0.537294, 21.5687)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.40666, -0.537294, 21.5687)
 
 [node name="cargo_B_stacked4" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.40666, -0.537294, 42.2692)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.40666, -0.537294, 42.2692)
 
 [node name="cargo_B_stacked5" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.40666, -0.537294, 68.1479)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.40666, -0.537294, 68.1479)
 
 [node name="cargo_B_stacked6" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.40666, -0.537294, 88.8484)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.40666, -0.537294, 88.8484)
 
 [node name="cargo_B_stacked7" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.40666, -0.537294, 111.73)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.40666, -0.537294, 111.73)
 
 [node name="cargo_B_stacked8" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.40666, -0.537294, 132.431)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.40666, -0.537294, 132.431)
 
 [node name="cargo_B_stacked9" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.40666, -0.537294, -16.4897)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.40666, -0.537294, -16.4897)
 
 [node name="cargo_B_stacked10" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.40666, -0.537294, -16.4897)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.40666, -0.537294, -16.4897)
 
 [node name="cargo_B_stacked11" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.40666, -0.537294, -16.4897)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.40666, -0.537294, -16.4897)
 
 [node name="cargo_B_stacked12" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.40666, -0.537294, -16.4897)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.40666, -0.537294, -16.4897)
 
 [node name="cargo_B_stacked13" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.40666, -0.537294, -16.4897)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.40666, -0.537294, -16.4897)
 
 [node name="cargo_B_stacked14" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.40666, -0.537294, -16.4897)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.40666, -0.537294, -16.4897)
 
 [node name="cargo_B_stacked15" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.41137, -0.537294, -146.182)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.41137, -0.537294, -146.182)
 
 [node name="cargo_B_stacked16" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.41137, -0.537294, -125.481)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.41137, -0.537294, -125.481)
 
 [node name="cargo_B_stacked17" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.41137, -0.537294, -99.6024)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.41137, -0.537294, -99.6024)
 
 [node name="cargo_B_stacked18" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.41137, -0.537294, -78.9019)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.41137, -0.537294, -78.9019)
 
 [node name="cargo_B_stacked19" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.41137, -0.537294, -56.0199)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.41137, -0.537294, -56.0199)
 
 [node name="cargo_B_stacked20" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.41137, -0.537294, -35.3194)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.41137, -0.537294, -35.3194)
 
 [node name="cargo_B_stacked21" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.41137, -0.537294, -184.24)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.41137, -0.537294, -184.24)
 
 [node name="cargo_B_stacked22" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.41137, -0.537294, -184.24)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.41137, -0.537294, -184.24)
 
 [node name="cargo_B_stacked23" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.41137, -0.537294, -184.24)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.41137, -0.537294, -184.24)
 
 [node name="cargo_B_stacked24" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.41137, -0.537294, -184.24)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.41137, -0.537294, -184.24)
 
 [node name="cargo_B_stacked25" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.41137, -0.537294, -184.24)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.41137, -0.537294, -184.24)
 
 [node name="cargo_B_stacked26" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, 9.41137, -0.537294, -184.24)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, 9.41137, -0.537294, -184.24)
 
 [node name="cargo_B_stacked27" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -5.34928, -0.537294, 21.5687)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -5.34928, -0.537294, 21.5687)
 
 [node name="cargo_B_stacked28" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -5.34928, -0.537294, 42.2692)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -5.34928, -0.537294, 42.2692)
 
 [node name="cargo_B_stacked29" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -5.34928, -0.537294, 68.1479)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -5.34928, -0.537294, 68.1479)
 
 [node name="cargo_B_stacked30" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -5.34928, -0.537294, 88.8484)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -5.34928, -0.537294, 88.8484)
 
 [node name="cargo_B_stacked31" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -5.34928, -0.537294, 111.73)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -5.34928, -0.537294, 111.73)
 
 [node name="cargo_B_stacked32" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -5.34928, -0.537294, 132.431)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -5.34928, -0.537294, 132.431)
 
 [node name="cargo_B_stacked33" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -5.34928, -0.537294, -16.4897)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -5.34928, -0.537294, -16.4897)
 
 [node name="cargo_B_stacked34" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -5.34928, -0.537294, -16.4897)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -5.34928, -0.537294, -16.4897)
 
 [node name="cargo_B_stacked35" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -5.34928, -0.537294, -16.4897)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -5.34928, -0.537294, -16.4897)
 
 [node name="cargo_B_stacked36" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -5.34928, -0.537294, -16.4897)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -5.34928, -0.537294, -16.4897)
 
 [node name="cargo_B_stacked37" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -5.34928, -0.537294, -16.4897)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -5.34928, -0.537294, -16.4897)
 
 [node name="cargo_B_stacked38" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -5.34928, -0.537294, -16.4897)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -5.34928, -0.537294, -16.4897)
 
 [node name="cargo_B_stacked39" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -4.61471, -0.537294, -146.182)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -4.61471, -0.537294, -146.182)
 
 [node name="cargo_B_stacked40" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -4.61471, -0.537294, -125.481)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -4.61471, -0.537294, -125.481)
 
 [node name="cargo_B_stacked41" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -4.61471, -0.537294, -99.6024)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -4.61471, -0.537294, -99.6024)
 
 [node name="cargo_B_stacked42" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -4.61471, -0.537294, -78.9019)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -4.61471, -0.537294, -78.9019)
 
 [node name="cargo_B_stacked43" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -4.61471, -0.537294, -56.0199)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -4.61471, -0.537294, -56.0199)
 
 [node name="cargo_B_stacked44" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -4.61471, -0.537294, -35.3194)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -4.61471, -0.537294, -35.3194)
 
 [node name="cargo_B_stacked45" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -4.61471, -0.537294, -184.24)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -4.61471, -0.537294, -184.24)
 
 [node name="cargo_B_stacked46" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -4.61471, -0.537294, -184.24)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -4.61471, -0.537294, -184.24)
 
 [node name="cargo_B_stacked47" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -4.61471, -0.537294, -184.24)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -4.61471, -0.537294, -184.24)
 
 [node name="cargo_B_stacked48" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -4.61471, -0.537294, -184.24)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -4.61471, -0.537294, -184.24)
 
 [node name="cargo_B_stacked49" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -4.61471, -0.537294, -184.24)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -4.61471, -0.537294, -184.24)
 
 [node name="cargo_B_stacked50" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(-0.199249, 0, -1.65491, 0, 4.315, 0, 19.154, 0, -0.0172152, -4.61471, -0.537294, -184.24)
+transform = Transform3D(-0.221645, 0, -1.8409, 0, 2.575, 0, 21.3068, 0, -0.01915, -4.61471, -0.537294, -184.24)
 
 [node name="cargo_B_stacked51" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(19.1464, 0, 0.0497906, 0, 4.315, 0, -0.576279, 0, 1.65425, 0.589254, -0.537294, -138.424)
+transform = Transform3D(21.2984, 0, 0.0553864, 0, 2.575, 0, -0.64105, 0, 1.84017, 0.589254, -0.537294, -138.424)
 
 [node name="cargo_B_stacked52" parent="." instance=ExtResource("18_i0g27")]
-transform = Transform3D(19.1464, 0, 0.0497906, 0, 4.315, 0, -0.576279, 0, 1.65425, 0.589254, -0.537294, 141.142)
+transform = Transform3D(21.2984, 0, 0.0553864, 0, 2.575, 0, -0.64105, 0, 1.84017, 0.589254, -0.537294, 141.142)
 
 [node name="StaticBody3D4" type="StaticBody3D" parent="."]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D4"]
 transform = Transform3D(1, 0, 0, 0, 0.866025, 0.5, 0, -0.5, 0.866025, 0, 0, 137)
 shape = SubResource("WorldBoundaryShape3D_lggff")
+
+[node name="lander_A" parent="." instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.945431, -0.547544, 73.3632)
+
+[node name="lander_A4" parent="." instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.93227, -0.547544, -24.8975)
+
+[node name="Barrel_A" parent="." instance=ExtResource("18_4i7mf")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.356239, 1.59841, -2.65579)
+
+[node name="Cube_Prototype_Small" parent="." instance=ExtResource("20_nu31w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.8273, -0.329168, -3.85328)
+
+[node name="Floor_Prototype" parent="." instance=ExtResource("21_obt1j")]
+transform = Transform3D(3.255, 0, 0, 0, 1.7726, -1.23466, 0, 11.2107, 0.19522, 1.94694, 2.15281, -4.03084)
+
+[node name="Wall" parent="." instance=ExtResource("24_8p5mg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.77372, -0.547544, 71.3013)
+
+[node name="Wall_Decorated" parent="." instance=ExtResource("23_2yde8")]
+transform = Transform3D(-0.997275, 0, -0.0737777, 0, 1, 0, 0.0737777, 0, -0.997275, 1.911, -0.547544, 70.5939)
+
+[node name="Wall_Doorway" parent="." instance=ExtResource("24_id0nj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.5599, -0.547544, 72.6545)
+
+[node name="Wall_Half" parent="." instance=ExtResource("25_1q667")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.88995, -0.547544, 72.0126)
+
+[node name="Wall_Target" parent="." instance=ExtResource("26_72tv7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.898, -0.548, 72.3297)
+
+[node name="Wall_Window_Closed" parent="." instance=ExtResource("25_dsgk7")]
+transform = Transform3D(3.065, 0, 0, 0, 1.25, 0, 0, 0, 4.85, 1.6232, -0.547548, -1.991)
+
+[node name="Wall_Window_Closed2" parent="." instance=ExtResource("25_dsgk7")]
+transform = Transform3D(2.975, 0, 0, 0, 1.25287, 0.194941, 0, -0.0730301, 3.34432, 1.31119, -0.547544, -1.991)
+
+[node name="Wall2" parent="." instance=ExtResource("24_8p5mg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.531, -0.547544, -50.368)
+
+[node name="Wall_Window_Closed3" parent="." instance=ExtResource("25_dsgk7")]
+transform = Transform3D(2.874, 0, 0, 0, 1.155, 0, 0, 0, 12.905, 2.32998, -0.547544, -77.3047)
+
+[node name="Wall_Window_Closed4" parent="." instance=ExtResource("25_dsgk7")]
+transform = Transform3D(3.055, 0, 0, 0, 1.24, 0, 0, 0, 9.285, 1.712, -0.238, -51.633)
+
+[node name="Wall_Doorway2" parent="." instance=ExtResource("24_id0nj")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.10295, -0.547544, 72.4732)
+
+[node name="Wall_Half2" parent="." instance=ExtResource("25_1q667")]
+transform = Transform3D(0.0719209, -1.83961, 0, 1.8486, 0.071571, 0, 0, 0, 1.85, 8.31988, -0.604163, 72.317)
+
+[node name="Wall_Target2" parent="." instance=ExtResource("26_72tv7")]
+transform = Transform3D(-0.999084, 0, 0.0427827, 0, 1, 0, -0.0427827, 0, -0.999084, 5.46827, -0.547544, 84.8096)
+
+[node name="Wall_Window_Closed5" parent="." instance=ExtResource("25_dsgk7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.54412, -0.547544, 85.2179)
+
+[node name="lander_A6" parent="." instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.071, -0.548, -50.804)
+
+[node name="lander_A7" parent="." instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.56, -0.548, -7.535)
+
+[node name="lander_A8" parent="." instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.979485, -0.547544, -2.60545)
+
+[node name="lander_A9" parent="." instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.0828, -0.547544, -7.63352)
+
+[node name="lander_A10" parent="." instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.551, -0.363, -0.197)
+
+[node name="lander_A11" parent="." instance=ExtResource("17_tuemg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.169, -0.548, 0.534)
+
+[connection signal="timeout" from="CharacterBody3D/Timer" to="CharacterBody3D" method="_on_timer_timeout"]
